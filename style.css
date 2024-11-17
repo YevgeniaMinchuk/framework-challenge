@@ -1,0 +1,19 @@
+body {
+    font-family: Tahoma, sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+section {
+    padding: 5em;
+    background-color: #ece9f0;
+}
