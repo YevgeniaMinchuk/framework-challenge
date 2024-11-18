@@ -5,7 +5,21 @@ body {
 
 h1 {
     text-align: center;
-    padding: 20px;
+    padding: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    padding: 1.5em 0;
+}
+
+h3 {
+    text-align: left;
+    padding: 0 0 2em 0;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .navbar-brand {
@@ -13,7 +27,46 @@ h1 {
     letter-spacing: 1px;
 }
 
-section {
-    padding: 5em;
+.about-my-pet {
+    padding: 12em 0;
     background-color: #ece9f0;
+}
+
+.personality {
+    padding: 4em;
+}
+
+.list-group-item {
+    background-color: #f3f1f7;
+}
+.cat-card {
+    margin: 4em 8em;
+}
+
+.card-body{
+    background-color: #242424;
+    color: #ffff;
+}
+
+.insights {
+    margin: 4em 0;
+    padding: 2em 0 2em 0;
+    background-color: #242424;
+    color: #ffff;
+}
+
+.baby-pictures { 
+    padding: 0 0 20em 0;
+}
+
+.baby-pic {
+    transition: 0.3s transform ease;
+}
+
+.baby-pic:hover {
+    transform: scale(1.2);
+}
+
+.row {
+    gap: 2em;
 }
